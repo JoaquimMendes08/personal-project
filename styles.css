@@ -1,0 +1,80 @@
+.body {
+    background-color: #000000;
+    border-color: #000000;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
+
+.bodyimg{
+    background-color: #000000;
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    justify-content: space-between;
+    padding: 40px
+}
+.bodyimg img{
+    border: 2px solid;
+    border-radius: 20px;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    color: #000000;
+    justify-content: space-evenly;
+    background-color: #000000;
+}
+.grid img{
+    border-radius: 50px;
+}
+
+.game {
+    border-radius: 20px;
+    background-color: #000000;
+    padding: 30px;
+    width:310px;
+    background-color: #000000;
+    color: #ffffff;
+    border: solid #ffffff;
+    border-radius: 20px
+}
+.game img:hover{
+    transition-duration: 1s;
+    scale: 1.2
+}
+
+.title {
+    font-size: 30px;
+    font-family: cursive;
+}
+
+.list {
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.easy {
+    font-size: 25px;
+    font-family: cursive;
+    color: #00ff00;
+}
+.medium {
+    font-size: 25px;
+    font-family: cursive;
+    color: #ffff00;
+}
+.hard {
+    font-size: 25px;
+    font-family: cursive;
+    color: #ff0000;
+}
